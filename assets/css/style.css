@@ -3,3 +3,38 @@ body * {
     padding: 0;
     
 }
+
+.icono{
+    height: 50px;
+    margin: 3px;
+}
+.portada {
+    background-color: transparent;
+    
+}
+
+.ml-6{
+    margin-left: 50%;
+}
+.presentacion ul{
+    background-color: #0000;
+    display: inline-block;
+}
+
+
+
+footer{
+    background-color: #11d6e4;
+    font-size: 20px;
+    width: 100%;
+    height: ;
+}
+
+.icons{
+    margin-left: 80%;
+    display: inline-block;
+}
+
+.footeri{
+    display: inline-block;
+}
