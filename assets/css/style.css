@@ -1,40 +1,48 @@
 body * {
     margin: 0;
     padding: 0;
-    
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .icono{
     height: 50px;
     margin: 3px;
+    background-color: transparent !important;
 }
+
 .portada {
-    background-color: transparent;
-    
+    background-color: transparent !important;
 }
 
 .ml-6{
     margin-left: 50%;
+   
 }
-.presentacion ul{
-    background-color: #0000;
-    display: inline-block;
-}
-
-
 
 footer{
     background-color: #11d6e4;
     font-size: 20px;
     width: 100%;
-    height: ;
+    padding: 1%;
+    
 }
-
+footer p {
+    margin-left: 10%;
+    font
+}
 .icons{
-    margin-left: 80%;
+    margin-left: 60%;
     display: inline-block;
+
 }
 
-.footeri{
-    display: inline-block;
+
+
+.tb{
+    background-color: black;
 }
