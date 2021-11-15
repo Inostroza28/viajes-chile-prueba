@@ -6,41 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/63a26b38d6.js" crossorigin="anonymous"></script>
 
-    <!--css y bootstrap-->  
+<!--css y bootstrap-->  
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!--Google font-->  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
 
     <title>Viajes Chile</title>
 </head>
 
 <body>
 
-    <!--Navbar-->
+<!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark portada fixed-top text-white">
         <img src="assets/img/viajes.svg" alt="icono" class="icono">
         <a class="navbar-brand" href="#">Viajes Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse ml-6 " id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
+        <div class="collapse navbar-collapse ml-6 portada" id="navbarNav">
+          <ul class="navbar-nav portada">
+            <li class="nav-item active portada">
               <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Quienes Somos</a>
+            <li class="nav-item active portada">
+              <a class="nav-link" href="#presentacion">Quienes Somos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Destacados</a>
+            <li class="nav-item active portada">
+              <a class="nav-link" href="#travel">Destacados</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+            <li class="nav-item active portada">
+              <a class="nav-link" href="#contact">Contacto</a>
             </li>
           </ul>
         </div>
       </nav>
 
-      <!--Carrusel-->
+  <!--Carrusel-->
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -63,43 +67,87 @@
         </a>
       </div>
 
- <section class="container-fluid presentacion">
-     <div class="container">
-        <h1>¿Quiénes Somos?</h1>
-            <ul class="cards">
-                    <li>
-                      <i class="fas fa-plane"></i>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde culpa, sed dicta voluptates dolore dolor minima ratione totam neque optio consectetur repellendus odit, perspiciatis provident voluptatibus ipsum, qui excepturi veritatis.
-                        </li>
-                    <li>
-                      <i class="fas fa-mountain"></i>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde culpa, sed dicta voluptates dolore dolor minima ratione totam neque optio consectetur repellendus odit, perspiciatis provident voluptatibus ipsum, qui excepturi veritatis.
-                        </li>
-                    <li>
-                      <i class="fas fa-route"></i>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde culpa, sed dicta odit, perspiciatis provident voluptatibus ipsum, qui excepturi veritatis.
-                    voluptates dolore dolor minima ratione totam neque optio consectetur repellendus    
-                    </li>
-              </ul>
-        </div>
- </section>
-
- <section class="destacados">
-
- </section>
-
- <section class="contacto">
-
- </section>
-
-<footer>
-    
-    <div class=" footeri">
-        <p class="text-white">VIAJES CHILE</p>
-        <a href="https://github.com"><i class="fab fa-github-square fa-2x text-white m-1"></i></a>
-        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-2x text-white m-1"></i></a>
-        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x text-white m-1"></i></a>
+<!--Quienes somos-->
+<section class="container-fluid tb" id="presentacion">
+  <h1 class=" text-center border-bottom border-info pt-5"> ¿Quienes somos? </h1>
+  <div class="container">
+    <div class="row row-cols-3">
+      <div class="col"><i class="fas fa-plane fa-2x d-block px-5 text-center bg-info"></i>
+        <p class="d-none d-sm-none d-md-block">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis totam quod delectus unde perspiciatis fugit itaque incidunt commodi assumenda ipsam dicta, adipisci quasi deserunt, doloremque dolor impedit, non vero maiores Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio id sed ex doloribus rem praesentium distinctio totam fugit, tempore dicta! Odit ab molestiae voluptatum odio pariatur provident nobis omnis porro!</p></div>
+      <div class="col"><p class="d-none d-sm-none d-md-block">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quidem amet excepturi. Voluptatibus sunt suscipit enim eos est perferendis voluptas accusantium excepturi laudantium consequuntur sit vitae inventore, tenetur deleniti quibusdam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore minima, voluptatem voluptas cumque, id recusandae perferendis repellendus eius culpa officia repellat odio suscipit aut distinctio voluptates magnam, natus corrupti blanditiis!</p>
+      <i class="fas fa-mountain fa-2x d-block px-5 text-center bg-info"></i></div>
+      
+      <div class="col"><i class="fas fa-route fa-2x d-block px-5 text-center bg-info"></i>
+        <p class="d-none d-sm-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam et eum architecto vero eius molestiae eos tenetur nisi aperiam. Nobis deleniti tenetur eos quia illo ut sequi, excepturi eaque necessitatibus Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusantium exercitationem minima aliquam, quibusdam culpa illo iste aut nobis? Voluptas voluptatem consectetur dolorum culpa enim, laborum incidunt doloribus dolorem. Ipsa.</p>
+      </div>
+    </div>
   </div>
+</section>
+
+<!--Tarjetas Imagenes-->
+  
+ <section class="container-fluid p-5  tb" id="travel">
+
+  <h1 class="text-center border-bottom border-info"> Destacados </h1>
+
+  <div class="card-deck p-5">
+    <div class="card bg-info">
+      <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lorem, ipsum dolor.</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore unde dolores sunt non, id temporibus laborum vel quis voluptate minima eveniet nisi enim totam aliquid rerum eos ipsa consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, numquam sunt vel quibusdam nobis consequatur cum voluptates incidunt tempora fuga, hic itaque dignissimos doloremque error, adipisci debitis quos minima sint?</p>
+    
+      </div>
+    </div>
+    <div class="card bg-info">
+      <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lorem, ipsum dolor.</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore unde dolores sunt non, id temporibus laborum vel quis voluptate minima eveniet nisi enim totam aliquid rerum eos ipsa consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, numquam sunt vel quibusdam nobis consequatur cum voluptates incidunt tempora fuga, hic itaque dignissimos doloremque error, adipisci debitis quos minima sint?</p>
+      
+      </div>
+    </div>
+    <div class="card bg-info">
+      <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lorem, ipsum dolor.</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore unde dolores sunt non, id temporibus laborum vel quis voluptate minima eveniet nisi enim totam aliquid rerum eos ipsa consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, numquam sunt vel quibusdam nobis consequatur cum voluptates incidunt tempora fuga, hic itaque dignissimos doloremque error, adipisci debitis quos minima sint?</p>
+        
+      </div>
+    </div>
+    <div class="card bg-info">
+      <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Lorem, ipsum dolor.</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus dolore unde dolores sunt non, id temporibus laborum vel quis voluptate minima eveniet nisi enim totam aliquid rerum eos ipsa consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, numquam sunt vel quibusdam nobis consequatur cum voluptates incidunt tempora fuga, hic itaque dignissimos doloremque error, adipisci debitis quos minima sint?</p>
+        
+      </div>
+    </div>
+  </div>
+  
+
+
+ </section>
+
+<!--Contactanos-->
+<div data-tf-widget="ovLz9jUX" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
+<footer class="bg-info" id="contact">
+    
+   
+<p class="text-white d-inline">VIAJES CHILE</p>
+    <div class=" icons d-inline rounded float-righ">
+        <a href="https://github.com"><i class="fab fa-github-square fa-2x text-white "></i></a>
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-2x text-white"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-2x text-white "></i></a>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-2x text.white"></i></a>
+      </div>
+
+ 
+
+
+
 </footer>
 
 
