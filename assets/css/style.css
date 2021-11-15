@@ -16,9 +16,14 @@ body * {
 .ml-6{
     margin-left: 50%;
 }
-.presentacion ul{
+
+.presentacion {
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+}
+.cards {
     background-color: #0000;
-    display: inline-block;
+    display: inline-block ;
 }
 
 
